@@ -1,5 +1,4 @@
 npm i
-
 cd server
 
 node server
