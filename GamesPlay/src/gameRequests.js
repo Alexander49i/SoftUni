@@ -111,6 +111,7 @@ export function editGame(fields) {
 export function deleteGame() {
 
     let gameId = localStorage.getItem('gameId')
+    let token = localStorage.getItem('token')
 
     return fetch('http://localhost:3030/data/games/' + gameId, {
         method: 'DELETE',
